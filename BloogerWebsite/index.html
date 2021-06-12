@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 
+    <!-- --------------- AOS Library ------------------ -->
+    <link rel="stylesheet" href="./css/aos.css">
+
     <!--Custom Style-->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -27,7 +30,7 @@
     <nav class="nav">
         <div class="nav-menu flex-row">
            <div class="nav-brand">
-             <a href="#" class="text-gray">Egor</a>  
+             <a href="https://github.com/front-learner" target="_blank" class="text-gray">Egor</a>  
            </div>
            <div class="toggle-collapse">
                <div class="toggle-icons">
@@ -40,24 +43,24 @@
                       <a href="#">Home</a> 
                    </li>
                    <li class="nav-link">
-                      <a href="#">Category</a> 
+                      <a href="#category">Category</a> 
                    </li>
                    <li class="nav-link">
-                      <a href="#">Archive</a> 
+                      <a href="#archive">Archive</a> 
                    </li>
                    <li class="nav-link">
-                      <a href="#">Pages</a> 
+                      <a href="#pages">Pages</a> 
                    </li>
                    <li class="nav-link">
-                      <a href="#">Contact Us</a> 
+                      <a href="#contact">Contact Us</a> 
                    </li>
                </ul>
            </div>
            <div class="social text-gray">
-               <a href="#"><i class="fab fa-facebook-f"></i></a>
-               <a href="#"><i class="fab fa-instagram"></i></a>
-               <a href="#"><i class="fab fa-twitter"></i></a>
-               <a href="#"><i class="fab fa-youtube"></i></a>
+               <a href="https://ru-ru.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+               <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+               <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
            </div>
         </div>
     </nav>
@@ -72,7 +75,7 @@
         <!-----------------Site Title------------------->
 
         <section class="site-title">
-           <div class="site-background">
+           <div class="site-background" data-aos="fade-up" data-aos-delay="200">
                <h3>Tours & Travels</h3>
                <h1>Amazing Place on Earth</h1>
                <button class="btn">Explore</button>
@@ -88,7 +91,7 @@
             <div class="blog">
                 <div class="container">
                     <div class="owl-carousel owl-theme blog-post">
-                      <div class="blog-content">
+                      <div class="blog-content" data-aos="fade-right" data-aos-delay="250">
                           <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
                           <div class="blog-title">
                               <h3>London Fashion week's continued the evolution</h3>
@@ -96,7 +99,7 @@
                               <span>2 minutes</span>
                           </div>
                       </div>  
-                      <div class="blog-content">
+                      <div class="blog-content" data-aos="fade-in" data-aos-delay="250">
                           <img src="./assets/Blog-post/post-3.jpg" alt="post-3">
                           <div class="blog-title">
                               <h3>London Fashion week's continued the evolution</h3>
@@ -104,7 +107,7 @@
                               <span>2 minutes</span>
                           </div>
                       </div>  
-                      <div class="blog-content">
+                      <div class="blog-content" data-aos="fade-left" data-aos-delay="250">
                           <img src="./assets/Blog-post/post-2.jpg" alt="post-2">
                           <div class="blog-title">
                               <h3>London Fashion week's continued the evolution</h3>
@@ -112,7 +115,7 @@
                               <span>2 minutes</span>
                           </div>
                       </div>  
-                      <div class="blog-content">
+                      <div class="blog-content" data-aos="fade-right" data-aos-delay="250">
                           <img src="./assets/Blog-post/post-5.png" alt="post-5">
                           <div class="blog-title">
                               <h3>London Fashion week's continued the evolution</h3>
@@ -133,10 +136,10 @@
 
         <! --------------- Site Content -------------- >
 
-        <section class="container">
+        <section class="container" id="archive">
            <div class="site-content">
                <div class="posts">
-                   <div class="post-content">
+                   <div class="post-content" data-aos="zoom-in" data-aos-delay="250">
                        <div class="post-image">
                            <div>
                                <img src="./assets/Blog-post/blog1.png" class="img" alt="Blog-1">
@@ -154,7 +157,7 @@
                        </div>
                    </div>
                    <hr>
-                   <div class="post-content">
+                   <div class="post-content" data-aos="zoom-in" data-aos-delay="250">
                        <div class="post-image">
                            <div>
                                <img src="./assets/Blog-post/blog2.png" class="img" alt="Blog-2">
@@ -172,7 +175,7 @@
                        </div>
                    </div>
                    <hr>
-                   <div class="post-content">
+                   <div class="post-content" data-aos="zoom-in" data-aos-delay="250">
                        <div class="post-image">
                            <div>
                                <img src="./assets/Blog-post/blog3.png" class="img" alt="Blog-3">
@@ -190,7 +193,7 @@
                        </div>
                    </div>
                    <hr> 
-                   <div class="post-content">
+                   <div class="post-content" data-aos="zoom-in" data-aos-delay="250">
                        <div class="post-image">
                            <div>
                                <img src="./assets/Blog-post/blog4.png" class="img" alt="Blog-4">
@@ -208,35 +211,35 @@
                        </div>
                    </div>
                    <hr>
-                   <div class="pagination flex-row">
+                   <div class="pagination flex-row" id="pages">
                        <a href="#"><i class="fas fa-chevron-left"></i></a>
-                       <a href="https://front-learner.github.io/cards/countdown-timer/" class="pages">1</a>
-                       <a href="https://front-learner.github.io/cards/countdown-timer/" class="pages">2</a>
-                       <a href="https://front-learner.github.io/cards/countdown-timer/" class="pages">3</a>
+                       <a href="#" class="pages">1</a>
+                       <a href="#" class="pages">2</a>
+                       <a href="#" class="pages">3</a>
                        <a href="#"><i class="fas fa-chevron-right"></i></a>
                    </div>
                </div>
                <aside class="sidebar">
                   <div class="category">
-                      <h2>Category</h2>
+                      <h2 id="category">Category</h2>
                       <ul class="category-list">
-                          <li class="list-items">
+                          <li class="list-items" data-aos="fade-left" data-aos-delay="150">
                               <a href="#">Software</a>
                               <span>(05)</span>
                           </li>
-                          <li class="list-items">
+                          <li class="list-items" data-aos="fade-left" data-aos-delay="250">
                               <a href="#">Technology</a>
                               <span>(02)</span>
                           </li>
-                          <li class="list-items">
+                          <li class="list-items" data-aos="fade-left" data-aos-delay="350">
                               <a href="#">Lifestyle</a>
                               <span>(07)</span>
                           </li>
-                          <li class="list-items">
+                          <li class="list-items" data-aos="fade-left" data-aos-delay="450">
                               <a href="#">Shopping</a>
                               <span>(01)</span>
                           </li>
-                          <li class="list-items">
+                          <li class="list-items" data-aos="fade-left" data-aos-delay="550">
                               <a href="#">Food</a>
                               <span>(08)</span>
                           </li>
@@ -244,7 +247,7 @@
                   </div>
                   <div class="popular-post">
                       <h2>Popular Post</h2>
-                      <div class="post-content">
+                      <div class="post-content" data-aos="flip-up" data-aos-delay="250">
                         <div class="post-image">
                             <div>
                                 <img src="./assets/popular-post/m-blog-1.jpg" class="img" alt="Blog-1">
@@ -258,7 +261,7 @@
                             <a href="#">New data recording system to better analyse road accidents</a> 
                         </div>
                       </div>
-                      <div class="post-content">
+                      <div class="post-content" data-aos="flip-up" data-aos-delay="350">
                         <div class="post-image">
                             <div>
                                 <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="Blog-2">
@@ -272,7 +275,7 @@
                             <a href="#">New data recording system to better analyse road accidents</a> 
                         </div>
                       </div>
-                      <div class="post-content">
+                      <div class="post-content" data-aos="flip-up" data-aos-delay="450">
                         <div class="post-image">
                             <div>
                                 <img src="./assets/popular-post/m-blog-3.jpg" class="img" alt="Blog-3">
@@ -286,7 +289,7 @@
                             <a href="#">New data recording system to better analyse road accidents</a> 
                         </div>
                       </div>
-                      <div class="post-content">
+                      <div class="post-content" data-aos="flip-up" data-aos-delay="550">
                         <div class="post-image">
                             <div>
                                 <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="Blog-4">
@@ -300,7 +303,7 @@
                             <a href="#">New data recording system to better analyse road accidents</a> 
                         </div>
                       </div>
-                      <div class="post-content">
+                      <div class="post-content" data-aos="flip-up" data-aos-delay="650">
                         <div class="post-image">
                             <div>
                                 <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="Blog-5">
@@ -316,7 +319,7 @@
                       </div>
                     
                   </div>
-                  <div class="newsletter">
+                  <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
                       <h2>Newsletter</h2>
                       <div class="form-element">
                           <input type="text" class="input-element" placeholder="Email">
@@ -326,14 +329,14 @@
                   <div class="popular-tags">
                       <h2>Popular Tags</h2>
                       <div class="tags flex-row">
-                          <span class="tag">Software</span>
-                          <span class="tag">Technology</span>
-                          <span class="tag">Travel</span>
-                          <span class="tag">Illustration</span>
-                          <span class="tag">Design</span>
-                          <span class="tag">Lifestyle</span>
-                          <span class="tag">Love</span>
-                          <span class="tag">Project</span>
+                          <span class="tag" data-aos="flip-up" data-aos-delay="150">Software</span>
+                          <span class="tag" data-aos="flip-up" data-aos-delay="250">Technology</span>
+                          <span class="tag" data-aos="flip-up" data-aos-delay="350">Travel</span>
+                          <span class="tag" data-aos="flip-up" data-aos-delay="450">Illustration</span>
+                          <span class="tag" data-aos="flip-up" data-aos-delay="550">Design</span>
+                          <span class="tag" data-aos="flip-up" data-aos-delay="650">Lifestyle</span>
+                          <span class="tag" data-aos="flip-up" data-aos-delay="750">Love</span>
+                          <span class="tag" data-aos="flip-up" data-aos-delay="850">Project</span>
                       </div>
                   </div>
                </aside>
@@ -341,25 +344,66 @@
         </section>
 
 
-
-
-
-
-
-
-
-
         <! ----------x---- Site Content ----x--------- >
-
-
-
-
-
 
     </main>
 
-
     <!-- -----x---- Main Site Section ----x-- -->
+
+    <!--------------- Footer ------------------------>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="250">
+                <h2>About us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis exercitationem adipisci nihil impedit, distinctio accusantium aliquam mollitia possimus aspernatur atque?</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="250">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="250">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card3.png" alt="instagramPhoto3">
+                    <img src="./assets/instagram/thumb-card4.png" alt="instagramPhoto4">
+                    <img src="./assets/instagram/thumb-card5.png" alt="instagramPhoto5">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card6.png" alt="instagramPhoto6">
+                    <img src="./assets/instagram/thumb-card7.png" alt="instagramPhoto7">
+                    <img src="./assets/instagram/thumb-card8.png" alt="instagramPhoto8">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="250">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <a href="https://ru-ru.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright 2021 All rights reserved | made by <a href="https://www.youtube.com/channel/UCrG2Z0usOCCdUTAr4D1A8mw" target="_blank">Daily Tuition <i class="fab fa-youtube"></i> Channel</a> 
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-3x"></i></span>
+        </div>
+    </footer>
+
+
+
+
+    <!-- -------x----- Footer ---------x------------ -->
+
 
     <!-- Jquery Library file -->
 
@@ -368,6 +412,10 @@
     <!-- -------- Owl-Carousel js -------- -->
 
     <script src="./js/owl.carousel.min.js"></script>
+
+     <!-- --------------- AOS JS Library ------------------ -->
+
+     <script src="./js/aos.js"></script>
 
     <!-- Custom Javascript file -->
   
